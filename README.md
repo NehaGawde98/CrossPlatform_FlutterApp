@@ -15,13 +15,13 @@ Backend - Powered by Back4App (Parse Server), which handles user 	authentication
 **2. AUTHENTICATION** <br>
 Signup/Login  screens built using Flutter forms.<br>
 Used Back4App’s ParseUser class to handle –  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;*User registration : ParseUser.signUp()   <br>
-&nbsp;&nbsp;&nbsp;&nbsp;*User login : ParseUser.login()  <br>  
-&nbsp;&nbsp;&nbsp;&nbsp;*Session Management : Persistent login using session tokens <br>
+&nbsp;&nbsp;&nbsp;&nbsp;*User registration : ParseUser.signUp()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;*User login : ParseUser.login()
+&nbsp;&nbsp;&nbsp;&nbsp;*Session Management : Persistent login using session tokens<br>
 Access Control – Data is protected using ACLs(Access Control Lists) so that only logged in users can access/modify book data. <br>
 
 **3. DATABASE STRUCTURE** <br>
-User – default class – manages authentication<br>  
+User – default class – manages authentication 
 &nbsp;&nbsp;&nbsp;&nbsp;*Fields : email, password <br>
 Books – custom class – stores book details for CRUD operations<br>
 &nbsp;&nbsp;&nbsp;&nbsp;*Fields : title, author, genre, availability <br>
