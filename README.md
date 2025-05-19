@@ -7,24 +7,24 @@ It utilizes Back4App for seamless data storage and retrieval of the book informa
 
 **1. ARCHITECTURE**<br>
 UI Layer -  Frontend built using Flutter, enabling cross-platform compatibility for Android and iOS - <br>
-    * Signup/Login Screens <br>
-    * Book service screens – Book list, Add Book, Edit Book, Delete book <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Signup/Login Screens <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Book service screens – Book list, Add Book, Edit Book, Delete book <br>
 Parse API Layer (Back4App Integration) - The app uses ParseUser API [signUp(), login()] to communicate 	with Back4App. <br>
 Backend - Powered by Back4App (Parse Server), which handles user 	authentication, data storage, and session validation. <br>
 
 **2. AUTHENTICATION** <br>
 Signup/Login  screens built using Flutter forms.<br>
 Used Back4App’s ParseUser class to handle –  <br>
-    * User registration : ParseUser.signUp()   <br>
-    * User login : ParseUser.login()  <br>  
-    * Session Management : Persistent login using session tokens <br>
+&nbsp;&nbsp;&nbsp;&nbsp;User registration : ParseUser.signUp()   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;User login : ParseUser.login()  <br>  
+&nbsp;&nbsp;&nbsp;&nbsp;Session Management : Persistent login using session tokens <br>
 Access Control – Data is protected using ACLs(Access Control Lists) so that only logged in users can access/modify book data. <br>
 
 **3. DATABASE STRUCTURE** <br>
-User – default class – manages authentication  <br>    
-    * Fields : email, password <br>
-Books – custom class – stores book details for CRUD operations
-    * Fields : title, author, genre, availability <br>
+User – default class – manages authentication<br>    
+&nbsp;&nbsp;&nbsp;&nbsp;Fields : email, password <br>
+Books – custom class – stores book details for CRUD operations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Fields : title, author, genre, availability <br>
 
 **4. SOFTWARE REQUIREMENTS** <br>
 Android Studio – IDE for development <br>
