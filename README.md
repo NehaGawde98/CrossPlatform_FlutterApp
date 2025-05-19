@@ -35,7 +35,9 @@ Back4App server – Backend service <br>
 https://youtu.be/1iPj51VFaTs
 
 **6. FEATURES** <br>
-  - Signup Screen :
+  - Signup Screen :<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Allows new users to register by providing mail and password.
+
 
 
 
