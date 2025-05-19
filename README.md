@@ -37,6 +37,22 @@ https://youtu.be/1iPj51VFaTs
 **6. FEATURES** <br>
   - Signup Screen :<br>
   &nbsp;&nbsp;&nbsp;&nbsp;- Allows new users to register by providing mail and password.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Displays success/error toast messages after signup.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Redirects user to Login screen upon successful signup.
+  - Login Screen :<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Allows users to login by providing mail and password.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Displays success/error toast messages after signup.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Redirects user to Book List screen upon successful signup.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Provides option for new users to sign up.
+  - Book List Screen :<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Displays list of books fetched from Back4App server.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Provides option to add, edit, delete books.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Redirects user to Book Form screen for add/edit operations.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Refreshes the book list after CRUD operations.
+  - Book Form Screen :<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;- Allows user to add or edit book details.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Displays success/error toast messages after operation.
+  &nbsp;&nbsp;&nbsp;&nbsp;- Redirects user to Book List screen after saving changes.
 
 
 
