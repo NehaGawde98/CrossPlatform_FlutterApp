@@ -5,34 +5,34 @@ It utilizes Back4App for seamless data storage and retrieval of the book informa
 
 **Assignment PPT**- **https://github.com/NehaGawde98/CrossPlatform_FlutterApp/blob/main/BookBuddy.pptx**
 
-**1. ARCHITECTURE**
-UI Layer -  Frontend built using Flutter, enabling cross-platform compatibility for Android and iOS - 
-    * Signup/Login Screens
-    * Book service screens – Book list, Add Book, Edit Book, Delete book
-Parse API Layer (Back4App Integration) - The app uses ParseUser API [signUp(), login()] to communicate 	with Back4App.
-Backend - Powered by Back4App (Parse Server), which handles user 	authentication, data storage, and session validation
+**1. ARCHITECTURE**<br>
+UI Layer -  Frontend built using Flutter, enabling cross-platform compatibility for Android and iOS - <br>
+    * Signup/Login Screens <br>
+    * Book service screens – Book list, Add Book, Edit Book, Delete book <br>
+Parse API Layer (Back4App Integration) - The app uses ParseUser API [signUp(), login()] to communicate 	with Back4App. <br>
+Backend - Powered by Back4App (Parse Server), which handles user 	authentication, data storage, and session validation. <br>
 
-**2. AUTHENTICATION**
-Signup/Login  screens built using Flutter forms.
-Used Back4App’s ParseUser class to handle –  
-    * User registration : ParseUser.signUp()   
-    * User login : ParseUser.login()    
-    * Session Management : Persistent login using session tokens
-Access Control – Data is protected using ACLs(Access Control Lists) so that only logged in users can access/modify book data.
+**2. AUTHENTICATION** <br>
+Signup/Login  screens built using Flutter forms.<br>
+Used Back4App’s ParseUser class to handle –  <br>
+    * User registration : ParseUser.signUp()   <br>
+    * User login : ParseUser.login()  <br>  
+    * Session Management : Persistent login using session tokens <br>
+Access Control – Data is protected using ACLs(Access Control Lists) so that only logged in users can access/modify book data. <br>
 
-**3. DATABASE STRUCTURE**
-User – default class – manages authentication      
-    * Fields : email, password
-Books – custom class – stores book details for CRUD operations    
-    * Fields : title, author, genre, availability
+**3. DATABASE STRUCTURE** <br>
+User – default class – manages authentication  <br>    
+    * Fields : email, password <br>
+Books – custom class – stores book details for CRUD operations <br>   
+    * Fields : title, author, genre, availability <br>
 
-**4. SOFTWARE REQUIREMENTS**
-Android Studio – IDE for development 
-Flutter SDK – for UI development 
-Back4App server – Backend service
+**4. SOFTWARE REQUIREMENTS** <br>
+Android Studio – IDE for development <br>
+Flutter SDK – for UI development <br>
+Back4App server – Backend service <br>
 
-**5. Demo Link**
-https://youtu.be/1iPj51VFaTs
+**5. Demo Link** <br>
+https://youtu.be/1iPj51VFaTs <br>
 
 
 
