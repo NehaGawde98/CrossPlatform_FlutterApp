@@ -23,7 +23,7 @@ Access Control – Data is protected using ACLs(Access Control Lists) so that on
 **3. DATABASE STRUCTURE** <br>
 User – default class – manages authentication  <br>    
     * Fields : email, password <br>
-Books – custom class – stores book details for CRUD operations <br>   
+Books – custom class – stores book details for CRUD operations
     * Fields : title, author, genre, availability <br>
 
 **4. SOFTWARE REQUIREMENTS** <br>
